@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Navigation Bar CSS */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Video Page */
+#reference-container {
+    width: 80%;
+    margin: 10px auto; 
+}
+
+#reference-container  h1 {
+    padding: 20px 0;
+    color: rgb(153, 153, 226);
+    font-size: 40px;
+    text-align: center;
+}
+
+.small-img-row img {
+    width: 25%;
+}
+
+.small-img-row p {
+    margin-left: 30px;
+    color: rgb(0, 0, 33);
+    line-height: 55px;
+    font-size: 20px;
+}
+
+.small-img {
+    display: flex;
+    margin: 20px 20px;
+    align-items: center;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 97%;
+    background-color: rgb(153, 153, 226);
+}
+
+
+.small-img .play-btn {
+    width: 45px;
+    position: absolute;
+    left: 150px;
+    cursor: pointer;
+}
+
+/* Footer Page */
+.footer > div {
+    width: 223px;
+}
+
+.footer-down {
+    background-color: rgb(18, 18, 62);
+    /* height: 240px; */
+}
+
+.footer-down {
+    display: flex;
+    padding: 23px 110px;
+    justify-content: space-evenly;
+}
+
+.footer-down ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+.footer-down ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-down ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text-center-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
